@@ -1,0 +1,121 @@
+html{
+    direction: rtl;
+}
+.t1{
+    margin: auto;
+    margin-top: 300px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 30px;
+
+
+}
+.t1 tr:first-child td{
+    background-color: black;
+}
+.t1 tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+}
+.t1 tr:nth-child(odd){
+    background-color: rgb(124, 124, 124);
+}
+.t1 tr td{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    
+    
+}
+.t1 tr:hover{
+    transform: scale(1.09);
+}
+
+
+.t2{
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.t2 tr td{
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+.t2 tr:first-child{
+    background-color: green;
+
+}
+.t2 tr td:nth-child(1){
+    background-color: green;
+}
+.t2 tr:nth-child(2){
+    background-color: rgb(134, 223, 134);
+}
+.t2 tr:nth-child(4){
+        background-color: rgb(134, 223, 134);
+}
+.t2 tr:nth-child(3){
+    background-color: rgb(60, 209, 60);
+}
+
+.t3{
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.t3 tr td{
+    border: 2px solid black;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+.t3 tr td{
+    border: none;
+    border-top: 2px solid;
+}
+.t3 tr:first-child{
+    background-color: black;
+}
+.t3 tr:nth-child(even){
+    background-color: rgb(206, 206, 206);
+}
+.t3 tr:nth-child(3){
+    background-color: rgb(146, 146, 146);
+}
+.t4{
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(43, 142, 255);
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.t4 tr td{
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.t4 tr:first-child{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    
+}
+.t4 tr:first-child td{
+    border-right: hidden;
+}
+.t4 td:nth-child(odd){
+    border-right: hidden;
+    border-left: hidden;
+}
+.t4 td:first-child{
+    border-left: solid white;
+    
+}
+
